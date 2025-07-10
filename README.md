@@ -28,7 +28,7 @@ It takes long URLs and generates short, easy-to-share links, storing them persis
 
 1. **Clone the repository**
 
-  git clone 
+  git clone https://github.com/Miss-prachi-guptaa/URL-SHORTNER.git
    
   2. Install dependencies
      npm install
