@@ -30,12 +30,13 @@ It takes long URLs and generates short, easy-to-share links, storing them persis
 
   git clone https://github.com/Miss-prachi-guptaa/URL-SHORTNER.git
    
-  2. Install dependencies
+  2. Install dependencies -
+
      npm install
 
-   3. Run the application
+   4. Run the application -
       node app.js
       
-   5. Open in browser
+   5. Open in browser - 
      Visit http://localhost:3000 to use the URL Shortener.
 
