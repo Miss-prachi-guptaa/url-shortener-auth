@@ -1,3 +1,5 @@
 node_modules/
-views/report.ejs
+.env
 views/headbar.ejs
+views/report.ejs
+
