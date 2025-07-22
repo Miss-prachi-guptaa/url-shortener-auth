@@ -1,20 +1,25 @@
-# URL Shortener with MongoDB
+🔗 URL Shortener with Authentication
+A URL Shortener project enhanced with user authentication and registration features.
 
-This is a simple URL shortener built with Node.js, Express, MongoDB, and EJS.
+👤✅ Users can sign up, log in, and manage their shortened URLs, with authentication implemented using cookies 🍪 and JWT 🔐 for secure route protection.
 
-## 🚀 Features
+🚀 Features
+✨ Shorten long URLs efficiently
 
-- Shorten long URLs to short codes
-- Redirect using generated short codes
-- Stores data in MongoDB
+🔐 User registration and login system
 
-## 🛠️ Tech Stack
+🔒 Protected routes using JWT and cookies
 
-- Node.js
-- Express.js
-- MongoDB
-- EJS
+📂 Each user can view their own shortened links
 
-✨ Author
-👩 Prachi Gupta
+🗂️ EJS templating for dynamic views
+
+⚙️ Tech Stack
+Backend: Node.js, Express.js
+
+Database: MongoDB (Mongoose)
+
+Authentication: bcrypt, JWT, cookie-parser
+
+Frontend: EJS
 
