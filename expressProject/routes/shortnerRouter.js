@@ -1,12 +1,10 @@
 import { Router } from 'express';
-import { postURLShortner, getShortnerPagen, redirectToShortLinks } from '../controllers/postShortner.controller.js';
+import { postURLShortner, getShortnerPage, redirectToShortLinks } from '../controllers/postShortner.controller.js';
 
 const router = Router();
 
-
-
 // Home route to display index.html with links inserted
-router.get('/', getShortnerPagen);
+router.get('/', getShortnerPage);
 
 router.post('/', postURLShortner);
 // POST route to add URL and shortcode in json
