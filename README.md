@@ -19,7 +19,7 @@ Backend: Node.js, Express.js
 
 Database: MongoDB (Mongoose)
 
-Authentication: bcrypt, JWT, cookie-parser
+Authentication:  JWT, cookie-parser
 
 Frontend: EJS
 
