@@ -8,6 +8,13 @@
       "when": 1753099724694,
       "tag": "0000_jazzy_komodo",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1753243048046,
+      "tag": "0001_lean_nextwave",
+      "breakpoints": true
     }
   ]
 }

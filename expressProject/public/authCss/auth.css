@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 .container input[type="text"],
-.container input[type="password"] {
+.container input[type="password"] .container input[type="email"] {
   width: 80%;
   padding: 10px;
   margin: 10px 0;
