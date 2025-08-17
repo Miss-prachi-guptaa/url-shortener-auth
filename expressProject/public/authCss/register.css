@@ -1,4 +1,4 @@
-/* General Reset */
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,14 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body Background */
+/* Body styling */
 body {
-  background: #f4f6f8;
+  background: #f7f9fc;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
+
 
 /* Navbar styling */
 .navbar {
@@ -74,59 +75,52 @@ footer p {
   margin: 0;
 }
 
-/* Container */
+/* Container box */
 .container {
+  width: 100%;
   max-width: 400px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 2rem;
   margin: 4rem auto;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-/* Heading */
+/* Headings */
 .container h2 {
   margin-bottom: 1.5rem;
   color: #333;
 }
 
-/* Form Inputs */
-form input[type="email"],
-form input[type="password"] {
+/* Input fields */
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
   width: 100%;
-  padding: 0.8rem;
+  padding: 0.75rem;
   margin-bottom: 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
-  transition: border 0.3s;
+  font-size: 1rem;
+  transition: 0.3s border-color;
 }
 
-form input[type="email"]:focus,
-form input[type="password"]:focus {
+.container input:focus {
   border-color: #007bff;
   outline: none;
 }
 
-/* Checkbox */
-form label {
-  display: flex;
-  align-items: center;
-  font-size: 0.9rem;
-  color: #555;
-  margin-bottom: 1rem;
-}
-
-/* Submit Button */
+/* Button */
 button[type="submit"] {
   background-color: #007bff;
-  color: #fff;
+  color: #ffffff;
   border: none;
-  padding: 0.8rem 1.2rem;
-  border-radius: 6px;
-  cursor: pointer;
+  padding: 0.75rem;
   width: 100%;
-  font-weight: bold;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
@@ -134,9 +128,14 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
+/* Error messages */
+.flash-error {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
 
-
-/* Bottom Link */
+/* Bottom link */
 .container p {
   margin-top: 1rem;
   font-size: 0.9rem;
@@ -150,26 +149,4 @@ button[type="submit"]:hover {
 
 .container a:hover {
   text-decoration: underline;
-}
-
-
-.flash-error {
-  background-color: #bd1422;
-  /* Light red background */
-  color: #721c24;
-  /* Dark red text */
-  border: 1px solid #f5c6cb;
-  /* Slightly darker border */
-  padding: 10px 15px;
-  /* Padding around the text */
-  margin-bottom: 10px;
-  /* Space below each error */
-  border-radius: 4px;
-  /* Rounded corners */
-  font-family: Arial, sans-serif;
-  /* Font style */
-  font-size: 14px;
-  /* Font size */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Optional subtle shadow */
 }

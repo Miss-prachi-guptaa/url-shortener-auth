@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { postURLShortner, getShortnerPage, redirectToShortLinks } from '../controllers/postShortner.controller.js';
+import { postURLShortner, getShortnerPage, redirectToShortLinks, getShortnerEditPage, postShortnerEditPage } from '../controllers/postShortner.controller.js';
 
 const router = Router();
 
@@ -12,8 +12,9 @@ router.post('/', postURLShortner);
 //  Route to redirect based on shortCode
 router.get("/:shortcode", redirectToShortLinks);
 
+router.route("/edit/:id").get(getShortnerEditPage).post(postShortnerEditPage);
 
-
+// router.route("/delete/:id").post(deleteShortCode)
 // Named export;
 export const shortenRoutes = router;
 
