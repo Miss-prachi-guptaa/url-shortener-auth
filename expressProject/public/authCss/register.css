@@ -130,9 +130,19 @@ button[type="submit"]:hover {
 
 /* Error messages */
 .flash-error {
-  color: #dc3545;
-  font-size: 0.9rem;
-  margin-bottom: 0.8rem;
+  border-left: 4px solid #b71c1c;
+  /* red vertical bar */
+  background-color: #fdecea;
+  /* light red/pink background */
+  color: #b71c1c;
+  /* dark red text */
+  padding: 12px 16px;
+  /* padding inside the box */
+  margin: 10px 0;
+  border-radius: 4px;
+  /* optional rounded corners */
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /* Bottom link */

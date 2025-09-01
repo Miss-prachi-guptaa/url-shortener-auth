@@ -82,7 +82,7 @@ export const postLogin = async (req, res) => {
 
   await authenticateUser({ req, res, user });
 
-  res.redirect("/") // else redirect to now home page
+  res.redirect("/profile") // else redirect to now home page
 }
 
 export const getMe = (req, res) => {

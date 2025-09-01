@@ -154,22 +154,17 @@ button[type="submit"]:hover {
 
 
 .flash-error {
-  background-color: #bd1422;
-  /* Light red background */
-  color: #721c24;
-  /* Dark red text */
-  border: 1px solid #f5c6cb;
-  /* Slightly darker border */
-  padding: 10px 15px;
-  /* Padding around the text */
-  margin-bottom: 10px;
-  /* Space below each error */
+  border-left: 4px solid #b71c1c;
+  /* red vertical bar */
+  background-color: #fdecea;
+  /* light red/pink background */
+  color: #b71c1c;
+  /* dark red text */
+  padding: 12px 16px;
+  /* padding inside the box */
+  margin: 10px 0;
   border-radius: 4px;
-  /* Rounded corners */
-  font-family: Arial, sans-serif;
-  /* Font style */
+  /* optional rounded corners */
   font-size: 14px;
-  /* Font size */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Optional subtle shadow */
+  font-weight: 500;
 }
